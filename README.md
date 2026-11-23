@@ -35,3 +35,8 @@ TBW
  
 The software is licensed under [Apache-2.0](LICENSE), all rights to the LSTM Project at the European Space Agency.
  
+The instrument data in this model are derived from published data, primarily:
+- F. Bernard, G. Bourgeois, I. Manolis, et al., "The LSTM instrument: design, technology
+and performance," *Proc. SPIE* 12777, International Conference on Space Optics — ICSO 2022,
+1277740 (2023). [doi:10.1117/12.2690632](https://doi.org/10.1117/12.2690632)
+- LSTM ISRFs: https://nwp-saf.eumetsat.int/downloads/rtcoef_info/visir_srf/rtcoef_lstm_1_lstm_srf.html
