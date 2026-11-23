@@ -16,7 +16,7 @@ nor for industrial verification tools. It is also not a rigorous per-pixel uncer
  
 ## Status
  
-Currently under development — still on the launch pad! 🧑‍🚀
+Currently under development
  
 ## Roadmap
  
