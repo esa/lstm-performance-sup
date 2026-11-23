@@ -25,7 +25,7 @@ Currently under development
 - 🔧 Updates and maintenance throughout Phase D.Ro
 ## 📦 Download and install
 Each machine creates its own virtual environment; `.venv/` is never committed or copied.
-Run everything from the `lstm-perf` folder (the one containing `pyproject.toml`).
+Run everything from the main repo folder (the one containing `pyproject.toml`).
 ### Linux / macOS
 
 ```bash
