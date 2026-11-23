@@ -24,9 +24,30 @@ Currently under development
 - **Feb 2027 — v1.0 release.** Repo hosts the full LSTM L1 performance and includes an E2E reference implementation, allowing you to model all the way from BOA surface reflectance, LSE and LST to retrieved surface reflectance, LSE and LST.
 - 🔧 Updates and maintenance throughout Phase D.Ro
 ## 📦 Download and install
- 
-TBW
- 
+Each machine creates its own virtual environment; `.venv/` is never committed or copied.
+Run everything from the `lstm-perf` folder (the one containing `pyproject.toml`).
+### Linux / macOS
+
+```bash
+cd path/to/lstm-perf
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -e ".[dev]"
+python -m ipykernel install --user --name lstm-perf --display-name "Python (lstm-perf)"
+```
+
+### Windows (PowerShell)
+
+```powershell
+cd path\to\lstm-perf
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -e ".[dev]"
+python -m ipykernel install --user --name lstm-perf --display-name "Python (lstm-perf)"
+```
+
 ## 🔭 Use
  
 TBW
